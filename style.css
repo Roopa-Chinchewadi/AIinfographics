@@ -1,0 +1,90 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    background-color: #000;
+}
+
+.navbar {
+    background-color: #333;
+}
+
+.navbar-brand {
+    color: #f0f;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.nav-link:hover {
+    color: #f0f;
+}
+
+.hero-section {
+    height: 100vh;
+    background: url('../images/hero-bg.jpg') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    color: #f0f;
+}
+
+.carousel-item img {
+    height: 500px;
+    object-fit: cover;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+}
+
+/* Add more styles as needed */
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 2rem 0;
+}
+
+footer h5 {
+    color: #f0f;
+    margin-bottom: 1rem;
+}
+
+footer .list-unstyled {
+    padding-left: 0;
+}
+
+footer .list-unstyled a {
+    color: #bbb;
+    text-decoration: none;
+}
+
+footer .list-unstyled a:hover {
+    color: #f0f;
+}
+
+footer svg {
+    color: #f0f;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 1rem;
+    border-top: 1px solid #444;
+}
